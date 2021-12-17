@@ -1,0 +1,115 @@
+body {
+  background: #293137 !important;
+}
+
+a.list-group-item {
+  color: #428bca !important;
+}
+
+#badge-box,
+.form-group,
+.list-group-item {
+  background: #2c3944 !important;
+}
+
+a.list-group-item.active {
+  color: #fff !important;
+  background-color: #428bca !important;
+  border-color: #428bca;
+}
+
+#speedtest-main #words {
+  background: #428bca !important;
+  border: 1px solid #000 !important;
+}
+
+#speedtest-main .correct {
+  color: cyan !important;
+}
+
+.table-striped > tbody > tr > td,
+.table-striped > tbody > tr > th {
+  background-color: #4d7f9f !important;
+  border-top: 1px solid #93b4d6 !important;
+  color: #000 !important;
+}
+.table {
+  margin-bottom: 0px !important;
+}
+
+button#reload-btn {
+  border: 1px solid black;
+}
+
+#speedtest-main #input-row {
+  background: #428bca !important;
+}
+
+label,
+.form-control {
+  color: wheat;
+}
+
+div#main-content-trenner,
+div#content-bg {
+  background: #293137 !important;
+}
+
+div#content-bg {
+  border: 0px !important;
+}
+
+div.form-group input.form-control {
+  background-color: #2c3944 !important;
+  color: powderblue !important;
+  border: 0px !important;
+}
+
+.badge {
+  padding: 0px !important;
+}
+
+#result-table tbody tr:last-child,
+.highscore-box {
+  display: none !important;
+}
+
+/* prettier-ignore */
+#speedtest-main #auswertung-box #auswertung-result #result-table td#wpm strong,
+#speedtest-main #auswertung-box #auswertung-result #result-table tr#correct .value,
+#speedtest-main #auswertung-box #auswertung-result #result-table td#wpm small {
+  color: #08f0f0 !important;
+}
+
+#speedtest-main #auswertung-box #auswertung-result #result-table td#wpm strong {
+  font-size: 40px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #428bca;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(44, 57, 68);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(55, 87, 112);
+}
+
+#speedtest-main
+  #auswertung-box
+  #auswertung-result
+  #result-table
+  td#wpm
+  #top-score {
+  top: -82px !important;
+}

@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Dark Theme for 10fastfingers",
+    "version": "1.1",
+    "description": "Dark theme for 10fastfingers, Could make it for all websites later",
+    "icons": {
+        "128": "icon128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_title": "Change to Dark Mode in 10fastfingers.com"
+    }
+}
